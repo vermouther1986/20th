@@ -1,0 +1,77 @@
+/* CSS Document */
+body{
+	width: 100%;
+}
+img{
+	width: 95%;
+}
+.stand{
+	width: 100%;
+	position: relative;
+}
+	
+.color{
+	
+	position: absolute;
+	left: 60%;
+	top: 80%;
+
+	
+}
+.Butterfly{
+    position: absolute;
+	left: 33%;
+	top: 300px;
+}
+.font{
+	width: 100%;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 40px;
+	padding: 0 40px;
+}
+@media screen and (max-width:768px){
+	
+body{
+	width: 375px;
+	height: 667px;
+}
+img{
+	width: 100%;
+}
+.stand{
+	width: 100%;
+	position: relative;
+}
+	
+.color{
+	max-width: 186px;
+	max-height: 149px;
+	position: absolute;
+	left: 260px;
+	top: 40px;
+
+	
+}
+	.Butterfly{
+		max-width: 43px;
+		max-height: 41px;
+    position: absolute;
+	left: 130px;
+	top: 260px;
+}
+.font{
+	max-width: 308px;
+	max-height: 187px;
+    position: absolute;
+	top: 200px;
+	left: 260px;
+	margin-top: 40px;
+	padding: 0 40px;
+}
+
+	
+	
+}

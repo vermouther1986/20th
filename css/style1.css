@@ -1,0 +1,110 @@
+/* CSS Document */
+@media screen and (min-width:768px){	
+body{
+width: 100%;
+background-color: #D61176;
+	
+}
+img{
+	width: 100%;
+}
+.start{
+	width: 100%;
+	 position: relative;
+}
+.pepole{
+	width: 100%;
+}
+.dialog{
+	width: 42%;
+	position: absolute;
+	display: none;
+	top: 30%;
+	left:0%;
+	z-index: 999;
+}
+.icon{
+	width: 20%;
+	position: absolute;
+	top: 4%;
+	left:86%;
+	z-index: 999;
+	color: #FFFFFF;
+	
+}
+.button{
+	width: 39.53%;
+position: absolute;	
+	top:84.31%;
+}
+.font{
+	width:59.61%;
+	position: absolute;
+	top:0px;
+}
+.Butterfly{
+	width: 9.14%;
+	position: absolute;
+	top:62.5%;
+	left: 53.91%;
+}
+}
+@media screen and (max-width:768px){	
+	body{
+		width: 100%;
+		background: #D61176;
+	}	
+	img{
+		width: 100%;
+	}
+	
+	.start{
+		width: 100%;
+		position: relative;
+		
+	}
+	.pepole{
+	   position: absolute;
+	   width: 100%;
+	   top: 0;
+	   left: 0;
+	}
+	.dialog{
+	width: 100%;
+	position: absolute;
+	display: none;
+	top: 40%;
+	left:0%;
+	z-index: 999;
+}
+.icon{
+	width: 20%;
+	position: absolute;
+	top: 4%;
+	left:86%;
+	z-index: 999;
+	color: #FFFFFF;
+	
+}
+	.button{	
+	   position: fixed;
+	   width: 92.53%;
+	   top: 88.31%;
+	   left: 2.67%;
+	}
+	.font{
+		position: absolute;
+	   width: 94.4%;
+	   top:0px;		
+	}
+	.Butterfly{	
+	position: absolute;
+	   width: 16.53%;
+		top:65.97%;
+		transform: translateY(600%);
+		left: 0;				
+	}
+	
+	
+	
+}

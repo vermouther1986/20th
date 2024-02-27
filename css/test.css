@@ -1,0 +1,38 @@
+body{
+	
+	width: 100%;
+	position: relative;
+}
+
+
+.hover_item{
+	
+	width: 100%;
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	
+	
+}
+
+
+.hover{
+	background-color: aqua;
+	width: 20px;
+	height:20px;
+	opacity: 1;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
